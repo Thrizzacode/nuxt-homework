@@ -1,5 +1,4 @@
 <script setup>
-// import "bootstrap/js/dist/modal";
 const { $Modal } = useNuxtApp();
 const modal = ref(null);
 onMounted(() => {

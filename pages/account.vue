@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <div class="min-vh-100 bg-neutral-120">
     <header class="position-fixed z-3 w-100 bg-neutral-120">

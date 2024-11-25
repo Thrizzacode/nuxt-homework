@@ -1,6 +1,4 @@
 <script setup>
-import BookingLoading from "@/components/rooms/BookingLoading.vue";
-
 const router = useRouter();
 
 const goBack = () => {
@@ -494,7 +492,7 @@ const confirmBooking = () => {
       </div>
     </section>
 
-    <BookingLoading v-if="isLoading" />
+    <RoomsBookingLoading v-if="isLoading" />
   </main>
 </template>
 

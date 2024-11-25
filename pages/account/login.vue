@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <div class="px-5 px-md-0">
     <div class="mb-10">

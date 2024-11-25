@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <footer class="py-20 pb-md-30 bg-neutral-120">
     <div class="container">
@@ -68,5 +66,3 @@
     </div>
   </footer>
 </template>
-
-<style lang="scss" scoped></style>

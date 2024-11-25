@@ -3,7 +3,6 @@ import { DatePicker } from "v-calendar";
 import "v-calendar/style.css";
 import { useScreens } from "vue-screen-utils";
 
-// import Modal from 'bootstrap/js/dist/modal';
 const { $Modal } = useNuxtApp();
 import { Icon } from "@iconify/vue";
 
