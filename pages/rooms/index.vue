@@ -12,8 +12,10 @@ const modules = ref([Autoplay, Navigation, Pagination]);
 //   const image = new URL(url, import.meta.url);
 //   return image.href;
 // };
+
+//暫時放在public避免 hydration mismatch 問題
 const importImage = (url) => {
-  return `_nuxt/assets/images/${url}`;
+  return `/images/${url}`;
 };
 
 const roomImages = computed(() => {
